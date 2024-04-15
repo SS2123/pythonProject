@@ -7,3 +7,4 @@ def sum_of_n_numbers(n):
     return total
 n = int(input("Enter the value of n: "))
 print("The sum of the first", n, "numbers is:", sum_of_n_numbers(n))
+ 
