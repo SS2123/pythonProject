@@ -2,7 +2,7 @@ import re
 from collections import Counter
 
 def most_common_word(text):
-    # Remove punctuation and convert text to lowercase
+    # Remove punctuation and convert text to lowercaseā
     text = re.sub(r'[^\w\s]', '', text.lower())
 
     # Create a dictionary with word frequencies
